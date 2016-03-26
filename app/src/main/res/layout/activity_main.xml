@@ -10,7 +10,15 @@
     tools:context="com.hteng.ndk.hello.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="#00FF00"
+        android:clickable="true"
+        android:text="click me "
+        android:onClick="invokeHello"
+        android:textSize="36dp"
+        android:textColor="@android:color/white"/>
+
 </RelativeLayout>

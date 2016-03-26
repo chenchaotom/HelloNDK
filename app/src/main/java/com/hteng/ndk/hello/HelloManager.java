@@ -17,6 +17,12 @@ public class HelloManager {
         return instance;
     }
 
+    public native String getHelloString();
 
+    static {
+
+        System.loadLibrary("hello-world");
+
+    }
 
 }
